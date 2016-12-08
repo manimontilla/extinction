@@ -1,0 +1,45 @@
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.info {
+	margin: 1.5em auto;
+	width: 60%;
+	padding: 2em;
+}
+
+.side-img {
+	width: 70%;
+		float: left;
+	margin-right: 2em;
+	display: block;
+}
+
+
+.first {
+	background: pink;
+}
+
+.second {
+	background: blue;
+}
+
+.third {
+	background: red;
+}
+
+.header {
+	background: yellow;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+p {
+	font-family: 'Pasion One', cursive;
+}
