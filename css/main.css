@@ -1,3 +1,14 @@
+body {
+	background-color: #B5CAF0;
+	color: #fff;
+}
+
+.page-wrapper {
+	min-height: 100%;
+	margin-bottom: -75px;
+	margin-top: -10px;
+}
+
 .wrapper {
     width: 60%;
     margin: 0 auto;
@@ -5,41 +16,111 @@
 
 .info {
 	margin: 1.5em auto;
-	width: 60%;
 	padding: 2em;
+	text-align: center;
+
 }
 
-.side-img {
-	width: 70%;
-		float: left;
-	margin-right: 2em;
-	display: block;
+.img {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	clear: both;
+	margin-bottom: -10%;
 }
 
+.text {
+	float: right;
+	width: 50%;
+	overflow: hidden;
+	clear: both;
+	background-color: #506a70;
+	border-radius: 10px;
+}
 
 .first {
-	background: pink;
+	background: #5E82C5;
+	clear: both;
+	overflow: hidden;
 }
 
 .second {
 	background: blue;
+	overflow: hidden;
+	clear: both;
+	background-color: #7762CA;
 }
 
 .third {
 	background: red;
+	overflow: hidden;
+	clear: both;
+	background-color: #4FBEB2;
 }
 
 .header {
-	background: yellow;
+	background: #254F9B;
 	text-align: center;
+	padding: 1%;
+	height: 230px;
+}
+
+
+h1 {
 	font-family: 'Josefin Sans', sans-serif;
+	font-size: 5em;
+	margin-bottom: -3%;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
 }
 
 h3 {
 	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
 }
 
+h4 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+}
 
-p {
+h5 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+}
+
+h6 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p, li {
 	font-family: 'Pasion One', cursive;
+	padding: 2%;
+}
+
+li {
+	text-align: left;
+}
+
+img {
+	border: .5em solid white;
+	border-radius: 10px;
+}
+
+a {
+	color: white;
+	text-decoration-style: none;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	background-color: #254F9B;
+	padding: 1em;
+	font-family: 'Josefin Sans', sans-serif
+	height:75px;
 }
